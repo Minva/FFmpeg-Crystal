@@ -3,5 +3,7 @@ module FFmpeg
 
   @[Link("avfilter")]
   lib AVFilter
+    fun configuration = avfilter_configuration : UInt8*
+    fun license = avfilter_license : UInt8*
   end
 end

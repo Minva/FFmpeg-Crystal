@@ -3,5 +3,7 @@ module FFmpeg
 
   @[Link("swresample")]
   lib AVSWResample
+    fun configuration = swresample_configuration : UInt8*
+    fun license = swresample_license : UInt8*
   end
 end

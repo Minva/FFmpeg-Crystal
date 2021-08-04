@@ -3,5 +3,7 @@ module FFmpeg
 
   @[Link("avdevice")]
   lib AVDevice
+    fun configuration = avdevice_configuration : UInt8*
+    fun license = avdevice_license : UInt8*
   end
 end
