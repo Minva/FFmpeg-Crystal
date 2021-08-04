@@ -1,6 +1,8 @@
 module FFmpeg
+  # Orinal doc -> https://ffmpeg.org/doxygen/4.1/avcodec_8h.html
+
   @[Link("avcodec")]
-  lib AVcodec
+  lib AVCodec
     ############################################################################
     # Structs
     ############################################################################
