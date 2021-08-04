@@ -1,0 +1,9 @@
+name: ffmpeg
+version: 0.1.0
+
+authors:
+  - lodenos <nikolaiilodenos@gmail.com>
+
+crystal: 1.1.0
+
+license: MIT
